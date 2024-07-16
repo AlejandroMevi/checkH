@@ -1,0 +1,465 @@
+<resources>
+
+    <!--General -->
+
+    <string name="app_name">"Human eTime"</string>
+    <string name="version">"Version:"</string>
+    <string name="build">"Compilation:"</string>
+    <string name="search">"Search"</string>
+    <string name="at">"at"</string>
+    <string name="aviso">"Notification"</string>
+    <string name="checkin">"Check in"</string>
+    <string name="checkout">"Check out"</string>
+    <string name="logout">"Logout"</string>
+    <string name="employee_number">"Employee:"</string>
+    <string name="success">"Success"</string>
+    <string-array name="day_of_the_week_array">
+        <item name="monday">"Monday"</item>
+        <item name="tuesday">"Tuesday"</item>
+        <item name="wednesday">"Wednesday"</item>
+        <item name="thursday">"Thursday"</item>
+        <item name="friday">"Friday"</item>
+        <item name="saturday">"Saturday"</item>
+        <item name="sunday">"Sunday"</item>
+    </string-array>
+
+    <!--Splash Activity -->
+
+    <string name="message_permission">"The app requires permissions, it is necessary to grant them manually for correct operation and then try again"</string>
+    <string name="close_app">"Close application"</string>
+    <string name="et_licence_terms_title" >"Privacy Policy"</string>
+    <string name="et_licence_terms_text">"By using Human eTime, you agree to our Privacy Policy."</string>
+    <string name="et_licence_terms_text_link">"&lt;u>Privacy Policy.&lt;/u>"</string>
+    <string name="et_text_confirm">"Confirm"</string>
+    <string name="actualizacion_desc">An update has just been downloaded.</string>
+    <string name="restart">Restart</string>
+
+    <!--Login Activity -->
+
+    <string name="log_in">"Log in"</string>
+    <string name="company_code">"Company code"</string>
+    <string name="employee_number_splash">"Employee number"</string>
+    <string name="to_access">"To access"</string>
+    <string name="textBottomSplash">"Human eTime by VenturesSoft® S.A de C.V"</string>
+    <string name="error_company_empty">"Please enter the company."</string>
+    <string name="error_employee_empty">"Please enter your employee number."</string>
+    <string name="message_successful_logout">"Session ended."</string>
+    <string name="desactive_airplane">"Human eTime requests deactivation of flight mode."</string>
+    <string name="desactive_airplane_comfirm">"To access your data, turn off "Flight Mode" or use Wi-Fi."</string>
+
+    <!--Principal Activity -->
+
+    <string name="side_menu_title_0">"Offline history"</string>
+    <string name="side_menu_title_1">"About"</string>
+    <string name="side_menu_title_2">"Settings"</string>
+    <string name="side_menu_title_3">"Sign off"</string>
+    <string name="message_confirm_logout">"Are you sure you want to sign out?"</string>
+    <string name="conexion_internet">"Check the internet connection, please enable WiFi or access data."</string>
+
+    <!-- About -->
+
+    <string name="aCopyright">"Copyright ©: "</string>
+    <string name="aCopyrightYear">"1995–2021"</string>
+    <string name="advetencia">"Warning"</string>
+    <string name="mAdvetencia">"This program is protected by copyright laws and other international treaties. The illicit reproduction or distribution of this program, or any part of it, is punishable by law with severe civil and criminal penalties and will be subject to all corresponding legal actions."</string>
+
+    <!-- Offline History-->
+
+    <string name="text_view_1_offline">"Find your attendances registered in the system."</string>
+    <string name="noRecords">"Records not found."</string>
+    <string name="no_word">"Enter a keyword"</string>
+
+    <!-- Settings -->
+
+    <string name="employeesView">"See list of employees"</string>
+    <string name="login_title_language">"Language"</string>
+    <string name="settings_spanish">"Español"</string>
+    <string name="settings_english">"English"</string>
+    <string name="settings_portuguese">"Português"</string>
+    <string name="settings_french">"French"</string>
+    <string name="btnSave">"Save"</string>
+    <string name="settings_voice_assistant">"Voice assistant"</string>
+    <string name="key_word_description">"You can only enter a single word"</string>
+    <string name="key_word">"Keyword "</string>
+    <string name="change">"Change"</string>
+    <string name="add_key_word">"Add keyword"</string>
+    <string name="add_key_message">"Enter the word you want to register for the voice assistant to recognize, to make your registrations."</string>
+    <string name="assistant_disable">"The assistant is disabled, There is no internet connection"</string>
+    <string name="picture_local">"Foto local"</string>
+
+    <!-- Local Picture -->
+
+    <string name="local_picure_description">Capture the photo with which you will be enrolled locally.\n\nIt is recommended that it be in a well-lit place and that there is no element that impedes the clarity of the photograph.</string>
+    <string name="local_picure_take_picture">"Take photo"</string>
+    <string name="local_picure_validate_picture">"Verify that the photo is correct for enrollment."</string>
+    <string name="local_picure_picture_accept">"Current photo"</string>
+    <string name="local_picure_picture_pending">"Photo pending"</string>
+    <string name="local_picure_picture_change">"Change photo"</string>
+    <string name="local_picure_replace_description">"There is already a photograph pending to be authorized\n\nDo you want to replace it?"</string>
+    <string name="local_picure_new_picture">"Do you want to submit a request to change your enrollment photo?"</string>
+
+    <!-- Wifi -->
+
+    <string name="title_bssid">"WiFi networks"</string>
+    <string name="wifi">"WiFi"</string>
+    <string name="bssid">"BSSID"</string>
+    <string name="bssid_empty">"Activate WiFi to get BSSID"</string>
+
+    <!-- ListEmployees -->
+
+    <string name="title_list_employees">"List of employees"</string>
+
+    <!-- Main \ Employee fragment -->
+
+    <string name="last">Last</string>
+    <string name="message_validate_check">"Please select an check in or check out option."</string>
+    <string name="error_no_location_found">"Your gps location was not obtained. Try again."</string>
+    <string name="error_admin_employee_empty">"Pleasy type the employee number."</string>
+    <string name="colab_mode">"Collaborator mode"</string>
+    <string name="error_developer_mode">"Disable developer options"</string>
+    <string name="active_date">"Human eTime requires activation of date and time."</string>
+    <string name="active_zone">"Human eTime requires activation of time zone."</string>
+    <string name="detectando_rostro">"Detecting face, blink to take photo"</string>
+    <string name="checkin_text">"IN"</string>
+    <string name="checkout_text">"OUT"</string>
+    <string name="process_input"><![CDATA[Processing your <b>%1$s</b>…]]></string>
+
+    <!-- Succes fragment -->
+
+    <string name="message_well_done">"Well done!"</string>
+    <string name="message_succesfull_checked">"processed successfully."</string>
+    <string name="check_sum_up">"Record details:"</string>
+    <string name="terminal">"Virtual terminal:"</string>
+    <string name="mensajeoffline">"When the connection returns to Human the"</string>
+    <string name="mensajeoffline1">"will be sent for validation."</string>
+
+    <!-- Core -->
+
+    <string name="message_location_activated">"You need to have locations services activated."</string>
+    <string name="title_gps_off">"GPS Off"</string>
+    <string name="error_timeout">"please connect to a stable network"</string>
+    <string name="error_http">"Unexpected error has ocurred. Please try again."</string>
+    <string name="error_user_local">"User not registered on this device. Please login at least once to login"</string>
+    <string name="face_no_detected">"Failed to detect face please clean your camera and find a brighter environment and try again"</string>
+    <string name="small_face">"Move your face closer to the device"</string>
+    <string name="error_in_face">"Fake image detected, please try again"</string>
+    <string name="error_server_connection">"The Human eTime service is not available, please report it to the supervisor."</string>
+    <string name="datosenviar_title">"Pending markings"</string>
+    <string name="Yes">"Yes"</string>
+    <string name="no">"Cancel"</string>
+    <string name="accept">"Accept"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="configuration">"Settings"</string>
+    <string name="voice_message5">"Start talking"</string>
+    <string name="intermitencias_con_la_red">"Wait a moment"</string>
+
+    <!-- Response codes -->
+
+    <!-- HET -->
+
+    <string name="HET000">"Success"</string>
+    <string name="HET001">"Incorrect company data."</string>
+    <string name="HET002">"The employee number is incorrect."</string>
+    <string name="HET004">"Incorrect company key."</string>
+    <string name="HET005">"The employee is not active in the system."</string>
+    <string name="HET006">"The employee does not have an assigned profile photo."</string>
+    <string name="HET007">"The employee does not have a Human eTime license."</string>
+    <string name="HET025">"The employee does not have an assigned profile picture."</string>
+    <string name="HET026">"Incorrect check data."</string>
+    <string name="HET027">"Human eTime did not have access to the employee's photo."</string>
+    <string name="HET028">"The priority value is incorrect."</string>
+    <string name="HET029">"Incorrect bluetooth marking zone."</string>
+    <string name="HET030">"Incorrect GPS marking zone."	</string>
+    <string name="HET031">"It does not have an active clock master."</string>
+    <string name="HET032">"The face does not match your photo."	</string>
+    <string name="HET033">"It is necessary to register a check-out."</string>
+    <string name="HET040">"A check in is required."</string>
+    <string name="HET041">"There is already a record with the same hour and minute."</string>
+    <string name="HET042">"A record already exists for that date."</string>
+    <string name="HET045">"The departure time cannot be less than the arrival time."</string>
+    <string name="HET214">"The company does not exist."</string>
+    <string name="HET239">"The company does not have an associated administrator user."</string>
+    <string name="HET240">"Insufficient balance, cannot register checks."</string>
+    <string name="HET320">"The employee does not exist."</string>
+    <string name="HET500">"The field 'DateHoraChecada' is mandatory."</string>
+    <string name="HET501">"The field 'TipoChecada' is mandatory."</string>
+    <string name="HET502">"The 'Priority' field is mandatory."</string>
+    <string name="HET505">"There are no previous checks, it is necessary to register an entry."</string>
+    <string name="HET506">"The employee does not have assigned stations."</string>
+    <string name="HET507">"Incorrect bluetooth and gps marking zone."</string>
+    <string name="HET508">"The 'Beacon' field is mandatory when the priority is 1."</string>
+    <string name="HET521">"Error when consulting environment."</string>
+
+    <!-- ET -->
+
+    <string name="ET000">Successful registration</string>
+    <string name="ET001">The value corresponding to the company is incorrect.</string>
+    <string name="ET002">The value corresponding to the employee number is incorrect.</string>
+    <string name="ET004"> Wrong company code, please try again.</string>
+    <string name="ET005">The employee is not active in the system.</string>
+    <string name="ET006">The employee does not have an assigned profile picture, report it to your supervisor.</string>
+    <string name="ET007">You do not have a license to use Human eTime.</string>
+    <string name="ET025">The check date and time is incorrect.</string>
+    <string name="ET026">The type of check is incorrect, the expected values ​​are “E- check-in” and “S - check-out”.</string>
+    <string name="ET027">"Human eTime did not have access to the employee's photo."</string>
+    <string name="ET028">The value corresponding to the priority is incorrect.</string>
+    <string name="ET029">"Wrong bluetooth marking zone."</string>
+    <string name="ET030">"Incorrect gps marking zone."</string>
+    <string name="ET031">The employee does not have a clock teacher</string>
+    <string name="ET032">"The face does not match your photo."</string>
+    <string name="ET033">"It is necessary to register a check-out."</string>
+    <string name="ET034">You do not have a registered photograph, please take the corresponding photo.</string>
+    <string name="ET035">The token field is incorrect.</string>
+    <string name="ET036">You do not currently have an authorized photograph, please notify your supervisor.</string>
+    <string name="ET040">"A check-in is required."</string>
+    <string name="ET041">"There is already a record with the same hour and minute."	</string>
+    <string name="ET042">"A record already exists for that date."</string>
+    <string name="ET045">"The departure time cannot be less than the arrival time."	</string>
+    <string name="ET200">"The field 'IdUsuario' is mandatory."</string>
+    <string name="ET201">"The 'email' field is mandatory."</string>
+    <string name="ET202">"The 'password' field is mandatory."</string>
+    <string name="ET203">"The 'phone' field is mandatory."</string>
+    <string name="ET204">"The 'name' field is mandatory."</string>
+    <string name="ET205">"The field 'surnamePat' is mandatory."</string>
+    <string name="ET206">"The field 'surnameMat' is mandatory."</string>
+    <string name="ET207">"The field 'companyName' is mandatory."</string>
+    <string name="ET208">"The field 'keyCia' is mandatory."</string>
+    <string name="ET209">"The 'emailNuevo' field is required."</string>
+    <string name="ET210">Company already exists.</string>
+    <string name="ET211">"User already exists."</string>
+    <string name="ET212">Role does not exist.</string>
+    <string name="ET213">Country code does not exist.</string>
+    <string name="ET214">The company does not exist.</string>
+    <string name="ET215">Zone does not exist.</string>
+    <string name="ET216">User does not exist.</string>
+    <string name="ET217">"Invalid password."</string>
+    <string name="ET218">"The new password is the same as the current one."</string>
+    <string name="ET219">"Administrator cannot be updated."</string>
+    <string name="ET220">"Email already exists."</string>
+    <string name="ET221">"The email format is invalid."</string>
+    <string name="ET222">"Mail does not exist."</string>
+    <string name="ET223">"The field 'company name' is mandatory."</string>
+    <string name="ET224">"The' SSN' field is mandatory."</string>
+    <string name="ET225">"The 'address' field is mandatory."</string>
+    <string name="ET226">"The company name already exists."</string>
+    <string name="ET227">Billing Id does not exist.</string>
+    <string name="ET228">"The field 'idInvoicing' is mandatory."</string>
+    <string name="ET229">Employee does not exist.</string>
+    <string name="ET230">"The key already exists in the HUMAN database."</string>
+    <string name="ET231">"The user does not have a company assigned."</string>
+    <string name="ET232">"The zone has no relation with the user entered."</string>
+    <string name="ET233">The zone array is mandatory.</string>
+    <string name="ET234">"Country code is required."</string>
+    <string name="ET235">The amount of the purchase subtotal is incorrect.</string>
+    <string name="ET236">The purchase date is incorrect.</string>
+    <string name="ET237">The value corresponding to the company number is incorrect.</string>
+    <string name="ET238">Zone description already exists.</string>
+    <string name="ET239">"The company does not have an associated administrator user."</string>
+    <string name="ET240">Insufficient balance, cannot register checks.</string>
+    <string name="ET241">Station name already exists.</string>
+    <string name="ET242">"The field 'entry date' is mandatory."</string>
+    <string name="ET250">"The field 'start date' is mandatory."</string>
+    <string name="ET251">"The field 'EndDate' is mandatory."</string>
+    <string name="ET252">End date must be greater than or equal to Start date.</string>
+    <string name="ET253">"Missing input field 'horaFin'."</string>
+    <string name="ET254">"Missing enter field 'start time'."</string>
+    <string name="ET255">"The phone code is required"</string>
+    <string name="ET260">"The field 'employeeNumber' or 'employeeID' is mandatory."</string>
+    <string name="ET261">"Field 'photo' is mandatory."</string>
+    <string name="ET262">"The field 'company number' or 'idCia' is mandatory."</string>
+    <string name="ET263">"Status only accepts A or B."</string>
+    <string name="ET264">"The zone has more than one associated administrator user."</string>
+    <string name="ET265">"The photo does not correspond to a person."</string>
+    <string name="ET270">Cannot delete the record as the zone is associated with a station.</string>
+    <string name="ET271">"You need to confirm the user's PIN to change the supervisor email."</string>
+    <string name="ET300">Supervisor id is wrong.</string>
+    <string name="ET301">The total purchase amount is incorrect.</string>
+    <string name="ET302">"The value of the purchase folio is incorrect."</string>
+    <string name="ET303">"Unable to process a zero check purchase."</string>
+    <string name="ET304">Supervisor Id does not exist.</string>
+    <string name="ET305">"The Id of the billing information does not exist."</string>
+    <string name="ET306">"There was an error with the purchase of checks, please retry."</string>
+    <string name="ET307">"The gateway page is already registered."</string>
+    <string name="ET308">The user id for access to the check purchase service is incorrect.</string>
+    <string name="ET309">"The password to access the check purchase service is incorrect."</string>
+    <string name="ET310">The idCia is incorrect.</string>
+    <string name="ET311">"The employee id is incorrect."</string>
+    <string name="ET312">"The employee's name is incorrect."</string>
+    <string name="ET313">Company number does not exist.</string>
+    <string name="ET314">Employee number does not exist.</string>
+    <string name="ET315">The employee is already registered in the system.</string>
+    <string name="ET316">"Some of the stations do not exist in the system."</string>
+    <string name="ET317">The file server path is not configured, report it to your supervisor.</string>
+    <string name="ET318">"Photo storage error."</string>
+    <string name="ET319">"Error inserting employee record."</string>
+    <string name="ET320">"The employee does not exist."</string>
+    <string name="ET321">"Internal error, please report it to your supervisor."</string>
+    <string name="ET322">" There are no results for the search criteria."</string>
+    <string name="ET323">The photo format is not valid.</string>
+    <string name="ET324">The page number is incorrect.</string>
+    <string name="ET325">The numRegistros is incorrect.</string>
+    <string name="ET326">The parameters page and numRegistros must go both.</string>
+    <string name="ET327">No records found.</string>
+    <string name="ET400">The "description" field is mandatory.</string>
+    <string name="ET401">"The "idZona" field is mandatory."</string>
+    <string name="ET402">"The "UUID" field is mandatory."</string>
+    <string name="ET403">"The "latitude" field is mandatory."</string>
+    <string name="ET404">"The "length" field is mandatory."</string>
+    <string name="ET405">"The "range" field is mandatory."</string>
+    <string name="ET406">"The 'status' field is mandatory."</string>
+    <string name="ET407">"The field 'IdEstacion' is mandatory."</string>
+    <string name="ET408">"The station does not exist."</string>
+    <string name="ET409">"The field 'clvUnidad' is mandatory."</string>
+    <string name="ET410">"Unit of measure does not exist."</string>
+    <string name="ET411">"The user has no associated stations."</string>
+    <string name="ET412">Report option is incorrect.</string>
+    <string name="ET413">The user does not have an associated email.</string>
+    <string name="ET450">There is no active privacy notice</string>
+    <string name="ET451">The privacy notice does not exist for the registered company</string>
+    <string name="ET452">An error occurred while accepting the privacy notice</string>
+    <string name="ET470">There is no record to generate the report.</string>
+    <string name="ET471">An error occurred while generating the report.</string>
+    <string name="ET500">"The field 'DateHoraChecada' is mandatory."</string>
+    <string name="ET501">"The field 'TipoChecada' is mandatory."</string>
+    <string name="ET502">"The 'Priority' field is mandatory."</string>
+    <string name="ET505">"There are no previous checks, it is necessary to register an entry."</string>
+    <string name="ET506">"The employee does not have assigned stations."</string>
+    <string name="ET507">"Incorrect bluetooth and gps marking zone."</string>
+    <string name="ET508">"The 'beacon' field is mandatory when the priority is 1."</string>
+    <string name="ET510">"The 'application date' field is mandatory."</string>
+    <string name="ET511">"The 'constoChecadas' field is mandatory."</string>
+    <string name="ET512">"The tax for the country already exists."</string>
+    <string name="ET513">"The 'taxid' field is mandatory."</string>
+    <string name="ET514">"There are no tax records."</string>
+    <string name="ET516">"The field 'statistical days' is mandatory."</string>
+    <string name="ET517">"The number of daysStatistics is incorrect."</string>
+    <string name="ET518">"The maximum number of statistics days is 15."</string>
+    <string name="ET519">"The 'language key' parameter is mandatory."</string>
+    <string name="ET520">"The language does not exist in the catalog."</string>
+    <string name="ET521">Error when consulting environment.</string>
+    <string name="ET522">It is not possible to perform your registration due to the fact that your access tolerance time has been exceeded.</string>
+    <string name="ET523">The "id" field is required.</string>
+    <string name="ET524">There are no audit records for the employee</string>
+    <string name="ET525">There are no audit records according to the date range</string>
+    <string name="ET526">There are no records for the requested id.</string>
+    <string name="ET550">Error ET550. Please contact technical support.</string>
+    <string name="ET600">Incorrect request.</string>
+    <string name="ET610">The employee photo does not exist.</string>
+    <string name="ET611">File not found.</string>
+    <string name="ET612">The company does not have a photo record.</string>
+    <string name="ET613">Error deleting image.</string>
+    <string name="ET614">The directory configured in the FileServer does not exist.</string>
+    <string name="ET615">Employee does not exist in Human.</string>
+    <string name="ET616">"Photo" field is required.</string>
+    <string name="ET617">The company does not have a file registry.</string>
+    <string name="ET618">The file does not exists.</string>
+    <string name="ET619">Failed to Delete File.</string>
+    <string name="ET620">The company number is incorrect.</string>
+    <string name="ET621">The employee number is incorrect.</string>
+    <string name="ET622">The path key is required.</string>
+    <string name="ET623">The company does not exist in Human.</string>
+    <string name="ET624">The path key does not exist in Human.</string>
+    <string name="ET625">X and Y must be sent for the new dimension.</string>
+    <string name="ET626">The file is required.</string>
+    <string name="ET627">The user does not have administrator privileges for the company.</string>
+    <string name="ET628">The Date format is invalid for the start date.</string>
+    <string name="ET629">The Date format is invalid for the end date.</string>
+    <string name="ET630">The start date must be less than the end date.</string>
+    <string name="ET631">Error generating the report in Jasper.</string>
+    <string name="ET640">The Free station field is required.</string>
+    <string name="ET641">The Free station field only accepts N or S.</string>
+    <string name="ET642">No assigned employees found.</string>
+    <string name="ET643">Error generating the token.</string>
+    <string name="ET650">The UUID field is required</string>
+    <string name="ET651">The device is already registered.</string>
+    <string name="ET652">RFC invalid.</string>
+    <string name="ET653">The keyword is already registered.</string>
+    <string name="ET654">Error sending email.</string>
+    <string name="ET655">The Keyword field is required.</string>
+    <string name="ET660">The RFC is already registered.</string>
+    <string name="ET670">The authorize field is incorrect.</string>
+    <string name="ET671">A record already exists for the employee.</string>
+    <string name="ET672">The employee is not enrolled.</string>
+    <string name="ET673">The new photo field is incorrect.</string>
+
+    <!-- DB -->
+
+    <string name="BD003">"Error when querying the database."</string>
+    <string name="DB210">"Query error: company."</string>
+    <string name="DB211">"Query error: user."</string>
+    <string name="DB212">"Error getting role."</string>
+    <string name="DB213">"Error getting country."</string>
+    <string name="DB214">"Error inserting company."</string>
+    <string name="DB215">"Error inserting user."</string>
+    <string name="DB216">"Error inserting Company_User."</string>
+    <string name="DB217">"Query error: zone."</string>
+    <string name="DB218">"Error inserting User_Zone."</string>
+    <string name="DB219">"Error deleting user_ zones."</string>
+    <string name="DB220">"Error while querying billing data."</string>
+    <string name="DB221">"Error inserting billing."</string>
+    <string name="DB222">"Error deleting billing."</string>
+    <string name="DB223">"Error getting employee."</string>
+    <string name="DB224">"Error getting last check."</string>
+    <string name="DB225">"Error when consulting the company in HUMAN."</string>
+    <string name="DB226">"Error while querying the company_user."</string>
+    <string name="DB227">"Error while consulting the User_Zone."</string>
+    <string name="DB229">"Error when checking Contracted Balance."</string>
+    <string name="DB230">"Error consulting Consumed Balance."</string>
+    <string name="DB231">"Error updating user."</string>
+    <string name="DB232">"Error while consulting the path."</string>
+    <string name="DB233">"Error inserting photo."</string>
+    <string name="DB250">"Error consulting check."</string>
+    <string name="DB400">"Error inserting station."</string>
+    <string name="DB401">"Error updating station."</string>
+    <string name="DB402">"Error while querying the station."</string>
+    <string name="DB403">"Error deleting the station."</string>
+    <string name="DB404">"Error inserting zone."</string>
+    <string name="DB405">"Error updating zone."</string>
+    <string name="DB407">"Error removing zone."</string>
+    <string name="DB408">"Error while querying the employee."</string>
+    <string name="DB409">"Error inserting check."</string>
+    <string name="DB410">"Error when consulting tax."</string>
+    <string name="DB411">"Error inserting tax."</string>
+    <string name="DB412">"Error removing tax."</string>
+    <string name="DB413">"Error querying language."</string>
+    <string name="DB414">"Error while consulting unit of measure."</string>
+    <string name="DB415">"Error deleting Station-Employee."</string>
+    <string name="DB416">"Error inserting Station-Employee."</string>
+    <string name="DB417">"Error when checking balance of checks."</string>
+    <string name="DB418">"Error when consulting Employee-Station."</string>
+    <string name="DB419">"Error deleting Employee."</string>
+    <string name="DB420">"Error deleting company-user."</string>
+    <string name="DB421">"Error error removing user."</string>
+
+    <!-- WS -->
+
+    <string name="WS001">"WS001: Server error, try again."</string>
+    <string name="WS002">"WS002: Server error, try again."</string>
+    <string name="WS003">"WS003: Server error, try again."</string>
+    <string name="WS004">"WS004: Server error, try again."</string>
+    <string name="WS005">"WS005: Server error, try again."</string>
+    <string name="WS006">"WS006: Server error, try again."</string>
+    <string name="WS007">"WS007: Server error, try again."</string>
+    <string name="WS008">"WS008: Server error, try again."</string>
+    <string name="WS009">"WS009: Server error, try again."</string>
+    <string name="WS010">"WS010: Server error, try again."</string>
+    <string name="WS011">"Master clock recovery failed, please try again."</string>
+    <string name="WS012">"Time trade recovery failed, try again."</string>
+    <string name="WS013">"Failed to retrieve permission, please try again."</string>
+    <string name="WS014">"Lag recovery failed, please try again."</string>
+    <string name="WS015">"Shift role recovery failed, please try again."</string>
+    <string name="WS016">"Shift recovery failed, please try again."</string>
+    <string name="WS017">"Last check recovery failed, try again."</string>
+    <string name="WS018">"Error communicating with Human CT, please try again."</string>
+    <string name="WS019">"Company data recovery failed, please try again."</string>
+    <string name="WS020">"Failed to retrieve the Ticker Clock registers, please try again."</string>
+    <string name="WS021">"Failed to communicate with Face ID, please try again."</string>
+
+    <!-- Unknow -->
+
+    <string name="retry_error">"Retry to capture your record again"</string>
+    <string name="unknown_error">"Unknown error."</string>
+    <string name="EG000">"An error occurred in the service."</string>
+    <string name="CT002">"The worker does not have an active Clock Master."</string>
+
+</resources>

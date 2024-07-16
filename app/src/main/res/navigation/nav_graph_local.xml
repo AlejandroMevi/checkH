@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_local"
+    app:startDestination="@id/localPictureFragment">
+
+    <action
+        android:id="@+id/action_localPictureFragment"
+        app:destination="@id/localPictureFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right" />
+
+    <action
+        android:id="@+id/action_localPicturePreviewFragment"
+        app:destination="@id/localPicturePreviewFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right" />
+
+    <action
+        android:id="@+id/action_localPicturePreviewFragment_pop"
+        app:destination="@id/localPicturePreviewFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"
+        app:popUpTo="@id/localPicturePreviewFragment"
+        app:popUpToInclusive="true"/>
+
+    <fragment
+        android:id="@+id/localPictureFragment"
+        android:name="com.venturessoft.human.pictureLocal.ui.LocalPictureFragment"
+        android:label="Foto Local"
+        tools:layout="@layout/fragment_local_picture" />
+    <fragment
+        android:id="@+id/localPicturePreviewFragment"
+        android:name="com.venturessoft.human.pictureLocal.ui.LocalPicturePreviewFragment"
+        android:label="Confirmación de foto Local"
+        tools:layout="@layout/fragment_local_picture_preview" />
+</navigation>

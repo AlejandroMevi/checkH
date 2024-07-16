@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.venturessoft.human",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 217,
+      "versionName": "2024.0",
+      "outputFile": "HET_2024.0_release.apk"
+    }
+  ],
+  "elementType": "File"
+}

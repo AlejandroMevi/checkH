@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <action
+        android:id="@+id/action_mainFragment_to_aboutFragment"
+        app:destination="@id/aboutFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right" />
+    <action
+        android:id="@+id/action_mainFragment_to_settingsFragment2"
+        app:destination="@id/settingsFragment2"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"/>
+    <action
+        android:id="@+id/action_mainFragment_to_offlineHistoryFragment"
+        app:destination="@id/offlineHistoryFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"/>
+    <action
+        android:id="@+id/action_mainFragment_to_succesFragment"
+        app:destination="@id/succesFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"/>
+    <action
+        android:id="@+id/action_settingsFragment2_to_listEmployeesFragment"
+        app:destination="@id/listEmployeesFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"/>
+    <action
+        android:id="@+id/action_mainFragment_to_mainFragment"
+        app:destination="@id/mainFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right" />
+
+    <action
+        android:id="@+id/action_settingsFragment2_to_settingsAnimationFragment"
+        app:destination="@id/settingsAnimationFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"/>
+
+    <action
+        android:id="@+id/action_settingsFragment2_to_settingsWifi"
+        app:destination="@id/settingsWifiFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right"/>
+
+    <action
+        android:id="@+id/action_emplyeeColabFragment"
+        app:destination="@id/emplyeeColabFragment"
+        app:enterAnim="@anim/anim_enter_right"
+        app:exitAnim="@anim/anim_exit_left"
+        app:popEnterAnim="@anim/anim_enter_left"
+        app:popExitAnim="@anim/anim_exit_right" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.main.MainFragment"
+        tools:layout="@layout/fragment_main"
+        android:label=""/>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.about.AboutFragment"
+        tools:layout="@layout/fragment_about"
+        android:label="@string/side_menu_title_1" />
+    <fragment
+        android:id="@+id/settingsFragment2"
+        android:name="com.venturessoft.human.main.ui.fragments.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings2"
+        android:label="@string/side_menu_title_2"/>
+    <fragment
+        android:id="@+id/offlineHistoryFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.historyOffline.OfflineHistoryFragment"
+        tools:layout="@layout/fragment_offline_history"
+        android:label="@string/side_menu_title_0"/>
+    <fragment
+        android:id="@+id/listEmployeesFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.listEmployees.ListEmployeesFragment"
+        tools:layout="@layout/fragment_list_employees"
+        android:label="@string/title_list_employees"/>
+    <fragment
+        android:id="@+id/succesFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.main.SuccesFragment"
+        tools:layout="@layout/fragment_succes"
+        android:label=""/>
+    <fragment
+        android:id="@+id/settingsAnimationFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.settings.SettingsAnimationFragment"
+        tools:layout="@layout/fragment_settings_animation"
+        android:label=""/>
+    <fragment
+        android:id="@+id/settingsWifiFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.settings.SettingsWifiFragment"
+        tools:layout="@layout/fragment_settings_wifi"
+        android:label="@string/title_bssid"/>
+    <fragment
+        android:id="@+id/emplyeeColabFragment"
+        android:name="com.venturessoft.human.main.ui.fragments.main.EmplyeeColabFragment"
+        tools:layout="@layout/fragment_emplyee_colab"
+        android:label=""/>
+</navigation>
