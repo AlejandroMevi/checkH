@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".pictureLocal.ui.LocalPicturePreviewFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextStyle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/local_picure_validate_picture"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llActual"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/local_picure_picture_accept"
+                android:textColor="@color/viewColor6"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgActual"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_user"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_in"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llNueva"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvStatusPicture"
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/local_picure_picture_pending"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgNueva"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_user"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_in"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvStatus"
+        style="@style/TextStyle4"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Status" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_acept"
+        style="@style/ButtonEtime"
+        android:text="@string/accept"
+        android:layout_marginTop="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_cancel"
+        style="@style/ButtonEtime2"
+        android:text="@string/cancel" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

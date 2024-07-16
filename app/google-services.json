@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "629297796303",
+    "firebase_url": "https://human-etime-c9450.firebaseio.com",
+    "project_id": "human-etime-c9450",
+    "storage_bucket": "human-etime-c9450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629297796303:android:3406ba009992148a4953ba",
+        "android_client_info": {
+          "package_name": "com.venturessoft.human"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629297796303-oc5aggdpo30fh3i69mie7sg8g3nceueb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZe0exTDyQUB-1z6_n7vkc3Z_bhaIOoeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629297796303-oc5aggdpo30fh3i69mie7sg8g3nceueb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

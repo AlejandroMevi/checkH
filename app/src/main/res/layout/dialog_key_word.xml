@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clBackgroung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mTransparentBlueLight">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardViewEtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/dialogTitle"
+                style="@style/TextStyle5"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_key_word" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/dialogMessage"
+                style="@style/TextStyle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/add_key_message" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tiKeyWord"
+                style="@style/InputLayoutEtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                app:helperText="@string/key_word_description"
+                android:hint="@string/key_word">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etKeyWord"
+                    style="@style/EditTextEtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/dialogPositiveButton"
+                style="@style/ButtonEtime"
+                android:layout_marginTop="32dp"
+                android:text="@string/btnSave" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

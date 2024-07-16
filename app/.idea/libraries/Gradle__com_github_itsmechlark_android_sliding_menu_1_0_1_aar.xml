@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.itsmechlark:android-sliding-menu:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sliding-menu-1.0.1.aar/f4638741239c9569319dc8bd62e7ba93/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sliding-menu-1.0.1.aar/f4638741239c9569319dc8bd62e7ba93/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.itsmechlark/android-sliding-menu/1.0.1/ec214f7622deed75d4ead01ad73aec69bac314b/android-sliding-menu-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

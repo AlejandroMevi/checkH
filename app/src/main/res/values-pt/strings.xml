@@ -1,0 +1,466 @@
+<resources>
+
+    <!--General -->
+
+    <string name="app_name">"Human eTime"</string>
+    <string name="version">"Versão:"</string>
+    <string name="build">"Build:"</string>
+    <string name="search">"Procurar"</string>
+    <string name="at">"às"</string>
+    <string name="aviso">"Aviso prévio"</string>
+    <string name="checkin">"Entrada"</string>
+    <string name="checkout">"Saída"</string>
+    <string name="logout">"Fechar sessão"</string>
+    <string name="employee_number">"Empregado:"</string>
+    <string name="success">"Sucesso"</string>
+    <string-array name="day_of_the_week_array">
+        <item name="monday">"Segunda feira"</item>
+        <item name="tuesday">"Terça feira"</item>
+        <item name="wednesday">"Quarta feira"</item>
+        <item name="thursday">"Quinta feira"</item>
+        <item name="friday">"Sexta feira"</item>
+        <item name="saturday">"Sábado"</item>
+        <item name="sunday">"Domingo"</item>
+    </string-array>
+
+    <!--Splash Activity -->
+
+    <string name="message_permission">"O aplicativo requer permissões, é necessário concedê-las manualmente para o correto funcionamento e depois tentar novamente"</string>
+    <string name="close_app">"Fechar aplicação"</string>
+    <string name="et_licence_terms_title" >"Política de Privacidade"</string>
+    <string name="et_licence_terms_text">"Ao usar o Human eTime, você concorda com nossos Política de Privacidade."</string>
+    <string name="et_licence_terms_text_link">"&lt;u>Política de Privacidade.&lt;/u>"</string>
+    <string name="et_text_confirm">"Confirme"</string>
+    <string name="actualizacion_desc">"Uma atualização acabou de ser baixada."</string>
+    <string name="restart">"Tentar novamente"</string>
+
+
+    <!--Login Activity -->
+
+    <string name="log_in">"Iniciar sessão"</string>
+    <string name="company_code">"Company code"</string>
+    <string name="employee_number_splash">"Número de empregado"</string>
+    <string name="to_access">"Acessar"</string>
+    <string name="textBottomSplash">"Human eTime by VenturesSoft® S.A de C.V"</string>
+    <string name="error_company_empty">"Por favor, insira a empresa."</string>
+    <string name="error_employee_empty">"Por favor, insira o seu número de empregado."</string>
+    <string name="message_successful_logout">"Sessão encerrada."</string>
+    <string name="desactive_airplane">"O eTime humano solicita a desativação do modo de vôo."</string>
+    <string name="desactive_airplane_comfirm">"Para acessar seus dados, desative o "Modo de vôo" ou use o Wi-Fi."</string>
+
+    <!--Principal Activity -->
+
+    <string name="side_menu_title_0">"Histórico offline"</string>
+    <string name="side_menu_title_1">"Sobre"</string>
+    <string name="side_menu_title_2">"Configuração"</string>
+    <string name="side_menu_title_3">"Fechar sessão"</string>
+    <string name="message_confirm_logout">"Tem certeza que quer sair?"</string>
+    <string name="conexion_internet">"Verifique a conexão com a Internet, por favor ative o WiFi ou os dados."</string>
+
+    <!-- Acerca de -->
+
+    <string name="aCopyright">"Copyright ©: "</string>
+    <string name="aCopyrightYear">"1995–2021"</string>
+    <string name="advetencia">"Atenção"</string>
+    <string name="mAdvetencia">"Este programa é protegido pelas leis de direitos autorais e outros tratados internacionais. A reprodução ou distribuição ilegal deste programa, ou qualquer parte dele, é punível por lei com severas penalidades civis e criminais e estará sujeita a todas as ações legais aplicáveis."</string>
+
+    <!-- Offline History-->
+    
+    <string name="text_view_1_offline">"Encontre seus atendimentos cadastrados no sistema."</string>
+    <string name="noRecords">"Registros não encontrados."</string>
+    <string name="no_word">"Insira uma palavra-chave"</string>
+
+    <!-- Settings -->
+
+    <string name="employeesView">"Veja lista de funcionários"</string>
+    <string name="login_title_language">"Língua"</string>
+    <string name="settings_spanish">"Español"</string>
+    <string name="settings_english">"English"</string>
+    <string name="settings_portuguese">"Português"</string>
+    <string name="settings_french">"Francês"</string>
+    <string name="btnSave">"Salve"</string>
+    <string name="settings_voice_assistant">"Assistente de voz"</string>
+    <string name="key_word_description">"Você só pode inserir uma única palavra"</string>
+    <string name="key_word">"Palavra-chave "</string>
+    <string name="change">"Mudar"</string>
+    <string name="add_key_word">"Adicionar palavra-chave"</string>
+    <string name="add_key_message">"Digite a palavra que deseja cadastrar para o assistente de voz reconhecer, para realizar seus cadastros."</string>
+    <string name="assistant_disable">"O assistente está desativado, não há conexão com a internet"</string>
+    <string name="picture_local">"Foto local"</string>
+
+    <!-- Local Picture -->
+
+    <string name="local_picure_description">Capturez la photo avec laquelle vous serez inscrit localement.\n\nRecomenda-se que seja em local bem iluminado e que não haja nenhum elemento que impeça a clareza da fotografia.</string>
+    <string name="local_picure_take_picture">"Tirar foto"</string>
+    <string name="local_picure_validate_picture">"Vérifiez que la photo est correcte pour l\'inscription."</string>
+    <string name="local_picure_picture_accept">"Fotografia atual"</string>
+    <string name="local_picure_picture_pending">"Foto pendente"</string>
+    <string name="local_picure_picture_change">"Mudar foto"</string>
+    <string name="local_picure_replace_description">"Já existe uma fotografia pendente de autorização\n\nQuer substituir?"</string>
+    <string name="local_picure_new_picture">"Deseja enviar uma solicitação para alterar sua foto de inscrição?"</string>
+
+    <!-- Wifi -->
+
+    <string name="title_bssid">"Redes Wi-Fi"</string>
+    <string name="wifi">"WiFi"</string>
+    <string name="bssid">"BSSID"</string>
+    <string name="bssid_empty">"Ative o WiFi para obter BSSID"</string>
+
+    <!-- ListEmployees -->
+
+    <string name="title_list_employees">"Lista de funcionários"</string>
+
+    <!-- Main \ Employee fragment -->
+
+    <string name="last">Última</string>
+    <string name="message_validate_check">"Selecione uma opção de entrada ou saída."</string>
+    <string name="error_no_location_found">"Sua localização GPS não foi obtida. Por favor, tente novamente."</string>
+    <string name="error_admin_employee_empty">"Digite um número de empregado."</string>
+    <string name="colab_mode">"Modo colaborador"</string>
+    <string name="error_developer_mode">"Desative as opções do desenvolvedor"</string>
+    <string name="active_date">"O eTime humano requer ativação automática de data e hora."</string>
+    <string name="active_zone">"O eTime humano requer a ativação automática do fuso horário."</string>
+    <string name="detectando_rostro">"Detectando rosto, pisque para tirar foto"</string>
+    <string name="checkin_text">"Entrada"</string>
+    <string name="checkout_text">"Saída"</string>
+    <string name="process_input"><![CDATA[Processando sua <b>%1$s</b>…]]></string>
+
+    <!-- Succes fragment -->
+
+    <string name="message_well_done">"Bem feito"</string>
+    <string name="message_succesfull_checked">"processado corretamente."</string>
+    <string name="check_sum_up">"Detalhes do registro:"</string>
+    <string name="terminal">"Terminal virtual:"</string>
+    <string name="mensajeoffline">"Quando a conexão com Human retorna seu"</string>
+    <string name="mensajeoffline1">"será enviado para validação."</string>
+
+    <!-- Core -->
+
+    <string name="message_location_activated">"Você precisa ter os serviços de localização ativados."</string>
+    <string name="title_gps_off">"GPS desligado"</string>
+    <string name="error_timeout">"Conecte-se a uma rede estável"</string>
+    <string name="error_http">"Ocorreu um erro inesperado. Por favor, tente novamente"</string>
+    <string name="error_user_local">"O usuário não está registrado neste dispositivo. Entrar"</string>
+    <string name="face_no_detected">"Falha ao detectar o rosto, limpe sua câmera, encontre um ambiente mais claro e tente novamente"</string>
+    <string name="small_face">"Aproxime seu rosto do dispositivo"</string>
+    <string name="error_in_face">"Imagem falsa detectada, tente novamente"</string>
+    <string name="error_server_connection">"O serviço eTime não está disponível, informe-o ao supervisor."</string>
+    <string name="datosenviar_title">"Marcações pendentes"</string>
+    <string name="Yes">"Sim"</string>
+    <string name="no">"Não"</string>
+    <string name="accept">"Aceitar"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="configuration">"Configuração"</string>
+    <string name="voice_message5">"Começar falando"</string>
+    <string name="intermitencias_con_la_red">"Piscando com a rede, aguarde um momento"</string>
+
+    <!-- Response codes -->
+
+    <!-- HET -->
+
+    <string name="HET000">"Sucess"</string>
+    <string name="HET001">"O valor para a empresa está incorreto."</string>
+    <string name="HET002">"O valor do número do empregado está incorreto."</string>
+    <string name="HET004">"Senha da empresa incorreta, tente novamente."</string>
+    <string name="HET005">"O empregado não está ativo no sistema."</string>
+    <string name="HET006">"O empregado não tem uma foto de perfil atribuída, informe ao seu supervisor."</string>
+    <string name="HET007">"Você não tem uma licença Human eTime, por favor, informe ao seu supervisor."</string>
+    <string name="HET025">"A data e a hora da verificação estão incorretas."	</string>
+    <string name="HET026">"O tipo de verificação é incorreto, os valores esperados são \'E\' - entrada ou \'S\' - saída."</string>
+    <string name="HET027">"O Human eTime não teve acesso à foto do empregado."	</string>
+    <string name="HET028">"O valor da prioridade está incorreto."	</string>
+    <string name="HET029">"Zona de marcação Bluetooth incorreta. "	</string>
+    <string name="HET030">"Zona de marcação gps incorreta."	</string>
+    <string name="HET031">"Você não tem um relógio mestre ativo, por favor, informe isso ao seu supervisor."</string>
+    <string name="HET032">"O rosto não corresponde à sua foto, tente novamente."	</string>
+    <string name="HET033">"É necessário registrar uma saída."	</string>
+    <string name="HET040">"É necessária uma entrada."	</string>
+    <string name="HET041">"Já existe um registro com a mesma hora e minuto."	</string>
+    <string name="HET042">"Já existe um registro com a mesma hora e minuto."</string>
+    <string name="HET045">"O horário de saída não pode ser inferior ao horário de entrada."	</string>
+    <string name="HET214">"A empresa não existe"</string>
+    <string name="HET239">"A empresa não possui um usuário administrador associado"</string>
+    <string name="HET240">"Saldo insuficiente, não é possível registrar cheques"</string>
+    <string name="HET320">"O empregado não existe"</string>
+    <string name="HET500">"O campo  "DateCheckedDate " é obrigatório"</string>
+    <string name="HET501">"O campo \'TipoChecada\' é obrigatório."</string>
+    <string name="HET502">"O campo \'Prioridade\' é obrigatório."</string>
+    <string name="HET505">"Não há verificações anteriores, é necessário registrar uma entrada"</string>
+    <string name="HET506">"O empregado não possui estações atribuídas"</string>
+    <string name="HET507">"Zona de marcação incorreta de Bluetooth e GPS."</string>
+    <string name="HET508">"O campo  "Beacon " é obrigatório quando a prioridade é 1."</string>
+    <string name="HET521">"Erro ao consultar ambiente"</string>
+
+    <!-- ET -->
+
+    <string name="ET000">Registro bem-sucedido</string>
+    <string name="ET001">" O valor correspondente à empresa está incorreto."</string>
+    <string name="ET002">" O valor correspondente ao número do empregado está incorreto."</string>
+    <string name="ET004">Chave da empresa incorreta, tente novamente.</string>
+    <string name="ET005">" O empregado não está ativo no sistema."</string>
+    <string name="ET006">O empregado não tem uma imagem de perfil atribuída, informe-a ao seu supervisor.</string>
+    <string name="ET007">" O empregado não possui uma imagem de perfil atribuída, denuncie-a ao seu supervisor."</string>
+    <string name="ET025">" A data e hora da verificação estão incorretas."</string>
+    <string name="ET026">" O tipo de verificação está incorreto, os valores esperados são “E-Input” e “S - Output”."</string>
+    <string name="ET027">" O eTime humano não teve acesso à foto do empregado."</string>
+    <string name="ET028">" O valor correspondente à prioridade está incorreto."</string>
+    <string name="ET029">Zona de marcação Bluetooth incorreta.</string>
+    <string name="ET030"> Zona de marcação GPS incorreta.</string>
+    <string name="ET031">" O empregado não tem um professor de relógio."</string>
+    <string name="ET032"> O rosto não corresponde à sua foto, tente novamente.</string>
+    <string name="ET033">" É necessário registrar uma saída."</string>
+    <string name="ET034">Não possui fotografia registada, por favor tire a fotografia correspondente.</string>
+    <string name="ET035">O campo do token está incorreto.</string>
+    <string name="ET036">No momento você não tem uma fotografia autorizada, por favor notifique seu supervisor</string>
+    <string name="ET040">" É necessário registrar uma entrada."</string>
+    <string name="ET041">"Já existe um registro com a mesma hora e minuto."	</string>
+    <string name="ET042">"Já existe um registro para essa data."</string>
+    <string name="ET045">"O horário do check-out não pode ser inferior ao horário do check-in."	</string>
+    <string name="ET200">O campo "UserID" é obrigatório.</string>
+    <string name="ET201">" O campo "email" é obrigatório."</string>
+    <string name="ET202">O campo "senha" é obrigatório.</string>
+    <string name="ET203">" O campo "telefone" é obrigatório."</string>
+    <string name="ET204">" O campo "nome" é obrigatório."</string>
+    <string name="ET205">O campo "LastnamePat" é obrigatório.</string>
+    <string name="ET206">" O campo "LastnameMat" é obrigatório."</string>
+    <string name="ET207">" O campo "nombreCia" é obrigatório."</string>
+    <string name="ET208">" O campo "claveCia é obrigatório."</string>
+    <string name="ET209">O campo "emailNew" obrigatório.</string>
+    <string name="ET210">A empresa já existe.</string>
+    <string name="ET211">" O usuário já existe."</string>
+    <string name="ET212">" O rol não existe."</string>
+    <string name="ET213">O código do país não existe.</string>
+    <string name="ET214">A empresa não existe</string>
+    <string name="ET215">A zona não existe.</string>
+    <string name="ET216">O usuário não existe.</string>
+    <string name="ET217">"Seu email não é válido."</string>
+    <string name="ET218">A nova senha é igual à atual.</string>
+    <string name="ET219">" O administrador não pode atualizar."</string>
+    <string name="ET220">" O email já existe."</string>
+    <string name="ET221">" Formato de email inválido."</string>
+    <string name="ET222">" O correio não existe."</string>
+    <string name="ET223">O campo "razão social" é obrigatório.</string>
+    <string name="ET224">" O campo "CPF" é obrigatório."</string>
+    <string name="ET225">O campo "endereço" é obrigatório.</string>
+    <string name="ET226">O campo "endereço" é obrigatório.</string>
+    <string name="ET227">" O ID do faturamento não existe."</string>
+    <string name="ET228">O campo "ID do faturamento" é obrigatório</string>
+    <string name="ET229">" O empregado não existe"</string>
+    <string name="ET230">" A chave já existe na base HUMANA"</string>
+    <string name="ET231">" O usuário não tem uma empresa atribuída"</string>
+    <string name="ET232">A zona não está relacionada ao usuário digitado</string>
+    <string name="ET233">A matriz de zonas é obrigatória</string>
+    <string name="ET234">O código do país é obrigatório</string>
+    <string name="ET235">" O valor do subtotal da compra está incorreto"</string>
+    <string name="ET236">" A data da compra está incorreta"</string>
+    <string name="ET237">O valor correspondente ao número da empresa está incorreto</string>
+    <string name="ET238">A descrição da área já existe</string>
+    <string name="ET239">" A empresa não possui um usuário administrador associado"</string>
+    <string name="ET240">" Saldo insuficiente, você não pode registrar cheques"</string>
+    <string name="ET241">O nome da estação já existe</string>
+    <string name="ET242">O campo "EntryDate" é obrigatório</string>
+    <string name="ET250">" O campo "Data de início" é obrigatório"</string>
+    <string name="ET251">" O campo "Data final" é obrigatório"</string>
+    <string name="ET252">" A data final deve ser maior ou igual à data"</string>
+    <string name="ET253">Digite o campo "Hora de término"</string>
+    <string name="ET254">" Falta Digite o campo "hora de início""</string>
+    <string name="ET255">O código do telefone é obrigatório</string>
+    <string name="ET260">" O campo "numberEmployee" é obrigatório"</string>
+    <string name="ET261">O campo "Foto" é obrigatório</string>
+    <string name="ET262">" O campo "numberCompania" ou "idCia" é obrigatório"</string>
+    <string name="ET263">O status aceita apenas A ou B</string>
+    <string name="ET264">A zona possui mais de um usuário administrador associado</string>
+    <string name="ET265">" A foto não corresponde a uma pessoa"</string>
+    <string name="ET270">O registro não pode ser excluído, pois a zona está associada a uma estação.</string>
+    <string name="ET271">"Você precisa confirmar o PIN do usuário para alterar o e-mail do supervisor."</string>
+    <string name="ET300">" O ID do supervisor está incorreto"</string>
+    <string name="ET301">" O valor total da compra está incorreto"</string>
+    <string name="ET302">" O valor do fólio de compra está incorreto"</string>
+    <string name="ET303">Não é possível processar uma compra de zero cheques</string>
+    <string name="ET304">O ID do supervisor não existe.</string>
+    <string name="ET305">" O ID dos dados de cobrança não existe."</string>
+    <string name="ET306">" Ocorreu um erro na compra de cheques, tente novamente"</string>
+    <string name="ET307">O fólio do gateway já está registrado</string>
+    <string name="ET308">" O ID do usuário para acesso ao serviço de compra de cheques está incorreto"</string>
+    <string name="ET309">" A senha para acessar o serviço de compra de cheques está incorreta"</string>
+    <string name="ET310">" O ID da empresa está incorreto"</string>
+    <string name="ET311">O ID do empregado está incorreto</string>
+    <string name="ET312">" O nome do empregado está incorreto."</string>
+    <string name="ET313">O número da empresa não existe</string>
+    <string name="ET314">" O número do empregado não existe"</string>
+    <string name="ET315">" O empregado já está registrado no sistema"</string>
+    <string name="ET316">" Algumas das estações não existem no sistema"</string>
+    <string name="ET317">" O caminho do servidor de arquivos não está configurado, informe-o ao seu supervisor"</string>
+    <string name="ET318">" Erro no armazenamento de fotos"</string>
+    <string name="ET319">" Erro ao inserir registro de empregado"</string>
+    <string name="ET320">O empregado não existe</string>
+    <string name="ET321">" O empregado não existe"</string>
+    <string name="ET322">" Não há resultados para os critérios de pesquisa"</string>
+    <string name="ET323">" O formato da foto não é válido."</string>
+    <string name="ET324">O número da página está incorreto</string>
+    <string name="ET325">O numRegistros está incorreto</string>
+    <string name="ET326">A página de parâmetros e numRegistros devem ir para ambos</string>
+    <string name="ET327">Nenhum registro encontrado.</string>
+    <string name="ET400">" O campo "descrição" é obrigatório"</string>
+    <string name="ET401">O campo "idZona" é obrigatório</string>
+    <string name="ET402">" O campo "UUID" é obrigatório"</string>
+    <string name="ET403">" O campo "latitude" é obrigatório"</string>
+    <string name="ET404">" O campo "longitude" é obrigatório"</string>
+    <string name="ET405">" O campo "range" é obrigatório"</string>
+    <string name="ET406">" O campo "status" é obrigatório"</string>
+    <string name="ET407">" O campo "Station Id" é obrigatório"</string>
+    <string name="ET408">" A estação não existe"</string>
+    <string name="ET409">"O campo \'clvUnidad\' é obrigatório"</string>
+    <string name="ET410">A unidade de medida não existe</string>
+    <string name="ET411">" A unidade de medida não existe"</string>
+    <string name="ET412">A opção de relatório está incorreta</string>
+    <string name="ET413">O usuário não tem um e-mail associado</string>
+    <string name="ET450">Não há aviso de privacidade ativo</string>
+    <string name="ET451">O aviso de privacidade não existe para a empresa registrada</string>
+    <string name="ET452">Ocorreu um erro ao aceitar o aviso de privacidade</string>
+    <string name="ET470">Não há registro para gerar o relatório.</string>
+    <string name="ET471">Ocorreu um erro ao gerar o relatório.</string>
+    <string name="ET500">O campo "DateCheck Date" é obrigatório</string>
+    <string name="ET501">" O campo "TypeChecada" é obrigatório"</string>
+    <string name="ET502">" O campo "Prioridade" é obrigatório"</string>
+    <string name="ET505">Não há verificações anteriores, é necessário registrar uma entrada</string>
+    <string name="ET506">" O empregado não possui estações atribuídas"</string>
+    <string name="ET507">" Zona de marcação Bluetooth e GPS incorreta."</string>
+    <string name="ET508">" O campo "Beacon" é obrigatório quando a prioridade é 1."</string>
+    <string name="ET510">" O campo "dateApplication" é obrigatório"</string>
+    <string name="ET511">" O campo "constoChecadas" é obrigatório"</string>
+    <string name="ET512">" O imposto para o país já existe"</string>
+    <string name="ET513">" O campo "ID fiscal" é obrigatório"</string>
+    <string name="ET514">Não há registros fiscais</string>
+    <string name="ET516">" O campo "Dias estatísticos" é obrigatório"</string>
+    <string name="ET517">O número de dias em que as estatísticas estão incorretas</string>
+    <string name="ET518">" O número máximo de dias em que as estatísticas são 15"</string>
+    <string name="ET519">O parâmetro "keyLanguage" é obrigatório</string>
+    <string name="ET520">O parâmetro "keyLanguage" é obrigatório</string>
+    <string name="ET521">Erro ao consultar ambiente</string>
+    <string name="ET522">Não é possível realizar seu cadastro devido ao fato de seu tempo de tolerância de acesso ter sido ultrapassado.</string>
+    <string name="ET523">O campo “id” é obrigatório.</string>
+    <string name="ET524">Não há registros de auditoria para o funcionário</string>
+    <string name="ET525">Não há registros de auditoria de acordo com o intervalo de datas</string>
+    <string name="ET526">Não há registros para o ID solicitado.</string>
+    <string name="ET550">Erro ET550. Entre em contato com o suporte técnico</string>
+    <string name="ET600">Solicitação incorreta.</string>
+    <string name="ET610">A foto do funcionário não existe.</string>
+    <string name="ET611">Arquivo não encontrado.</string>
+    <string name="ET612">A empresa não possui registro fotográfico.</string>
+    <string name="ET613">Erro ao excluir a imagem.</string>
+    <string name="ET614">O diretório configurado no FileServer não existe.</string>
+    <string name="ET615">Funcionário não existe em Humano.</string>
+    <string name="ET616">O campo “Foto” é obrigatório.</string>
+    <string name="ET617">A empresa não possui cadastro de arquivos.</string>
+    <string name="ET618">O arquivo não existe.</string>
+    <string name="ET619">Falha ao excluir arquivo.</string>
+    <string name="ET620">O número da empresa está incorreto.</string>
+    <string name="ET621">O número do funcionário está incorreto.</string>
+    <string name="ET622">LA chave do caminho é obrigatória.</string>
+    <string name="ET623">A empresa não existe em Humano.</string>
+    <string name="ET624">A chave do caminho não existe em Humano.</string>
+    <string name="ET625">X e Y devem ser enviados para a nova dimensão.</string>
+    <string name="ET626">O arquivo é obrigatório.</string>
+    <string name="ET627">O usuário não possui privilégios de administrador para a empresa.</string>
+    <string name="ET628">O formato de data é inválido para a data de início.</string>
+    <string name="ET629">O formato de data é inválido para a data de término.</string>
+    <string name="ET630">A data de início deve ser inferior à data de término.</string>
+    <string name="ET631">Erro ao gerar o relatório no Jasper.</string>
+    <string name="ET640">O campo Estação Livre é obrigatório.</string>
+    <string name="ET641">O campo Estação Livre aceita apenas N ou S.</string>
+    <string name="ET642">Nenhum funcionário atribuído foi encontrado.</string>
+    <string name="ET643">Erro ao gerar o token.</string>
+    <string name="ET650">O campo UUID é obrigatório</string>
+    <string name="ET651">O dispositivo já está registrado.</string>
+    <string name="ET652">RFC inválido.</string>
+    <string name="ET653">A palavra-chave já está cadastrada.</string>
+    <string name="ET654">Erro ao enviar e-mail.</string>
+    <string name="ET655">O campo Palavra-chave é obrigatório.</string>
+    <string name="ET660">A RFC já está registrada.</string>
+    <string name="ET670">O campo de autorização está incorreto.</string>
+    <string name="ET671">Já existe um registro para o funcionário.</string>
+    <string name="ET672">O funcionário não está inscrito.</string>
+    <string name="ET673">O campo da nova foto está incorreto.</string>
+
+    <!-- DB -->
+
+    <string name="BD003">"Error when querying the database."</string>
+    <string name="DB210">"Erro ao consultar a empresa"</string>
+    <string name="DB211">"Erro ao consultar o usuário"</string>
+    <string name="DB212">"Erro ao consultar o rol"</string>
+    <string name="DB213">"Erro ao obter o país"</string>
+    <string name="DB214">"Erro ao inserir a empresa"</string>
+    <string name="DB215">"Erro ao inserir usuário"</string>
+    <string name="DB216">"Erro ao inserir Cia_User"</string>
+    <string name="DB217">"Erro ao consultar a zona"</string>
+    <string name="DB218">"Erro ao inserir User_Zona"</string>
+    <string name="DB219">"Falha ao excluir user_zone "</string>
+    <string name="DB220">"Erro ao consultar os dados de cobrança "</string>
+    <string name="DB221">"Erro ao inserir faturamento "</string>
+    <string name="DB222">"Erro ao excluir faturamento"</string>
+    <string name="DB223">"Erro ao obter empregado"</string>
+    <string name="DB224">"Erro ao obter a última verificação"</string>
+    <string name="DB225">"Erro ao consultar a empresa em HUMAN"</string>
+    <string name="DB226">"Erro ao consultar company_user"</string>
+    <string name="DB227">"Erro ao consultar a Zona de Usuário"</string>
+    <string name="DB229">"Erro ao consultar o saldo contratado"</string>
+    <string name="DB230">"Erro ao consultar o saldo consumido"</string>
+    <string name="DB231">"Erro ao atualizar usuário"</string>
+    <string name="DB232">"Erro ao consultar o caminho"</string>
+    <string name="DB233">"Erro ao inserir foto"</string>
+    <string name="DB250">"Verificar erro de consulta"</string>
+    <string name="DB400">"Erro ao inserir estação"</string>
+    <string name="DB401">"Erro ao atualizar a estação"</string>
+    <string name="DB402">"Erro ao consultar a estação"</string>
+    <string name="DB403">"Erro ao excluir a estação"</string>
+    <string name="DB404">"Falha ao inserir zona"</string>
+    <string name="DB405">"Falha ao atualizar a zona"</string>
+    <string name="DB407">"Falha ao excluir a zona"</string>
+    <string name="DB408">"Erro ao consultar o empregado"</string>
+    <string name="DB409">"Erro ao inserir marcado"</string>
+    <string name="DB410">"Erro ao consultar imposto"</string>
+    <string name="DB411">"Erro ao inserir imposto"</string>
+    <string name="DB412">"Erro ao remover o imposto"</string>
+    <string name="DB413">"Erro ao consultar o idioma"</string>
+    <string name="DB414">"Erro ao consultar a unidade de medida"</string>
+    <string name="DB415">"Erro ao remover employee_station"</string>
+    <string name="DB416">"Erro ao inserir Station-Employee"</string>
+    <string name="DB417">"Erro ao verificar o saldo de cheques"</string>
+    <string name="DB418">"Erro ao consultar Estação-empregado"</string>
+    <string name="DB419">"Falha ao excluir empregado"</string>
+    <string name="DB420">"Erro ao excluir usuário da empresa"</string>
+    <string name="DB421">"Erro ao excluir usuário"</string>
+
+    <!-- WS -->
+
+    <string name="WS001">"WS001: Erro do servidor, tente novamente."</string>
+    <string name="WS002">"WS002: Erro do servidor, tente novamente."</string>
+    <string name="WS003">"WS003: Erro do servidor, tente novamente."	</string>
+    <string name="WS004">"WS004: Erro do servidor, tente novamente."	</string>
+    <string name="WS005">"WS005: Erro do servidor, tente novamente."	</string>
+    <string name="WS006">"WS006: Erro do servidor, tente novamente."	</string>
+    <string name="WS007">"WS007: Erro do servidor, tente novamente."	</string>
+    <string name="WS008">"WS008: Erro do servidor, tente novamente."	</string>
+    <string name="WS009">"WS009: Erro do servidor, tente novamente."	</string>
+    <string name="WS010">"WS010: Erro do servidor, tente novamente."</string>
+    <string name="WS011">"Erro ao recuperar o relógio mestre, tente novamente."</string>
+    <string name="WS012">"Ocorreu um erro na recuperação do cronograma de negociação, informe-o ao supervisor."</string>
+    <string name="WS013">"Ocorreu um erro ao recuperar a licença, informe ao supervisor."</string>
+    <string name="WS014">"A recuperação do atraso falhou, tente novamente."</string>
+    <string name="WS015">"A recuperação da função Shift falhou, tente novamente."</string>
+    <string name="WS016">"A recuperação do turno falhou, tente novamente."</string>
+    <string name="WS017">"A recuperação da última verificação falhou, tente novamente."</string>
+    <string name="WS018">"Erro de comunicação com o CT humano, tente novamente."</string>
+    <string name="WS019">"A recuperação dos dados da empresa falhou, tente novamente."</string>
+    <string name="WS020">"Falha ao recuperar os registros do Ticker Clock, tente novamente."</string>
+    <string name="WS021">"Falha ao comunicar com o ID Facial, tente novamente."</string>
+
+    <!-- Unknow -->
+
+    <string name="retry_error">"Reintente capturar nuevamente su registro"</string>
+    <string name="unknown_error">"Erro desconhecido."</string>
+    <string name="EG000">"An error occurred in the service."</string>
+    <string name="CT002">"O trabalhador não tem um Clock Master ativo."</string>
+
+</resources>
